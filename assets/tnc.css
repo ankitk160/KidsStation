@@ -1,0 +1,104 @@
+/* Styling of page and footer */
+#main-content {
+    height: 100vh;
+}
+
+#foot-cont {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 200%;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #6A4600;
+    top: 98vh;
+}
+
+@media screen and (max-height: 731px) {
+    #main-content {
+        height: 932px;
+    }
+
+    #foot-cont {
+        top: 912px;
+    }
+}
+
+#tnc-title {
+    position: absolute;
+    width: 372px;
+    height: 36px;
+    left: calc(50% - 372px/2);
+    top: 132px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 431px) {
+    #tnc-title {
+        width: 95.38vw;
+        height: 9.23vw;
+        left: calc(50% - 47.69vw);
+        top: 30.70vw;
+        font-size: 5.58vw;
+        line-height: 8.37vw;
+    }
+}
+
+#tnc-banner {
+    position: absolute;
+    width: 415.98px;
+    height: 226.9px;
+    left: calc(50% - 415.98px/2);
+    top: 168px;
+}
+
+@media screen and (max-width: 431px) {
+    #tnc-banner {
+        width: 96.26vw;
+        height: 52.28vw;
+        top: 39.07vw;
+        left: calc(50% - 48.60vw);
+    }
+}
+
+#tnc-details {
+    position: absolute;
+    width: 366px;
+    height: 460px;
+    left: calc(50% - 366px/2);
+    top: 412px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 133.3%;
+    color: #000;
+
+    ul {
+        margin: 0;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #tnc-details {
+        width: 85.35vw;
+        height: 112vw;
+        top: 95.12vw;
+        font-size: 3.26vw;
+        line-height: 4.35vw;
+        left: calc(50% - 85.35vw/2);
+    }
+
+    ul {
+        padding: 0 3.49vw;
+    }
+}

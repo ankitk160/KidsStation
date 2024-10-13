@@ -1,0 +1,1262 @@
+/* Styling of body */
+body {
+    margin: 0;
+    background: #311700;
+    height: 100vh;
+}
+
+/* Styling of main content */
+#main-content {
+    position: absolute;
+    width: 428px;
+    left: calc(50% - 214px);
+    height: 1325px;
+    background: #FAFFCA;
+}
+
+@media screen and (max-width: 431px) {
+    #main-content {
+        width: 100%;
+        height: 308.14vw;
+        left: 0;
+    }
+}
+
+/* Styling of navigation */
+nav {
+    height: 70px;
+}
+
+@media screen and (max-width: 431px) {
+    nav {
+        height: 16.28vw;
+    }
+}
+
+#nav-logo {
+    position: absolute;
+    width: 227.52px;
+    height: 50px;
+    left: 27px;
+    top: 12px;
+}
+
+@media screen and (max-width: 431px) {
+    #nav-logo {
+        width: 52.91vw;
+        height: 11.63vw;
+        left: 6.28vw;
+        top: 2.79vw;
+    }
+}
+
+#menu {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 367px;
+    top: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 431px) {
+    #menu {
+        width: 8.14vw;
+        height: 8.14vw;
+        left: 85.35vw;
+        top: 3.72vw;
+    }
+}
+
+/* Styling of top banner */
+#rectangle {
+    position: absolute;
+    width: 400px;
+    height: 155px;
+    left: 14px;
+    top: 96px;
+    background: #FF7A00;
+    border-radius: 17px;
+
+    #bannerText1,
+    #bannerText2,
+    #bannerText3 {
+        position: absolute;
+        width: 104px;
+        height: 54px;
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: top 0.5s ease, left 0.5s ease, opacity 0.5s ease;
+    }
+
+    #bannerText1 {
+        left: 13px;
+        top: 35px;
+    }
+
+    #bannerText2 {
+        left: 148px;
+        top: 170px;
+    }
+
+    #bannerText3 {
+        left: 284px;
+        top: 170px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #rectangle {
+        width: 93.02vw;
+        height: 36.05vw;
+        left: 3.26vw;
+        top: 22.33vw;
+        border-radius: 3.95vw;
+
+        #bannerText1,
+        #bannerText2,
+        #bannerText3 {
+            width: 24.19vw;
+            height: 12.56vw;
+            font-size: 6.98vw;
+            line-height: 6.28vw;
+        }
+
+        #bannerText1 {
+            top: 8.14vw;
+            left: 3.02vw;
+        }
+
+        #bannerText2 {
+            left: 34.42vw;
+            top: 39.53vw;
+        }
+
+        #bannerText3 {
+            left: 66.05vw;
+            top: 39.53vw;
+        }
+    }
+}
+
+#top-banner {
+    position: absolute;
+    width: 250px;
+    height: 214px;
+    left: 169px;
+    top: 62px;
+}
+
+@media screen and (max-width: 431px) {
+    #top-banner {
+        width: 58.14vw;
+        height: 49.77vw;
+        left: 39.30vw;
+        top: 14.42vw;
+    }
+}
+
+#tab1 {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 14px;
+    top: 269px;
+    background: #FF7A00;
+    border-radius: 10px;
+    cursor: pointer;
+
+    span {
+        position: absolute;
+        width: 41px;
+        height: 26px;
+        left: 44px;
+        top: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 89%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #tab1 {
+        width: 30.23vw;
+        height: 11.63vw;
+        left: 3.26vw;
+        top: 62.56vw;
+        border-radius: 2.33vw;
+
+        span {
+            width: 9.53vw;
+            height: 6.05vw;
+            left: 10.23vw;
+            top: 2.79vw;
+            font-size: 3.49vw;
+        }
+    }
+}
+
+#tab2 {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 149px;
+    top: 269px;
+    background: #D36500;
+    border-radius: 10px;
+    cursor: pointer;
+
+    span {
+        position: absolute;
+        width: 55px;
+        height: 26px;
+        left: 31px;
+        top: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 89%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #tab2 {
+        width: 30.23vw;
+        height: 11.63vw;
+        left: 35.2vw;
+        top: 62.56vw;
+        border-radius: 2.33vw;
+
+        span {
+            width: 12.81vw;
+            height: 6.05vw;
+            left: 7.21vw;
+            top: 2.79vw;
+            font-size: 3.49vw;
+        }
+    }
+}
+
+#tab3 {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 284px;
+    top: 269px;
+    background: #773900;
+    border-radius: 10px;
+    cursor: pointer;
+
+    span {
+        position: absolute;
+        width: 40px;
+        height: 26px;
+        left: 45px;
+        top: 12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 89%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #tab3 {
+        width: 30.23vw;
+        height: 11.63vw;
+        left: 66.98vw;
+        top: 62.56vw;
+        border-radius: 2.33vw;
+
+        span {
+            width: 9.30vw;
+            height: 6.05vw;
+            left: 10.47vw;
+            top: 2.79vw;
+            font-size: 3.49vw;
+        }
+    }
+}
+
+/* Styling of english content heading, arabic content heading and footer*/
+.heading {
+    position: absolute;
+    width: 428px;
+    height: 20px;
+    background: #FFDE9D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+    span {
+        position: absolute;
+        height: 9px;
+        top: 5.9px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 89%;
+        text-align: center;
+        letter-spacing: 0.065em;
+        color: #6A4600;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .heading {
+        width: 98%;
+        height: 4.65vw;
+        left: 1%;
+        border-radius: 2.33vw;
+
+        span {
+            height: 2.09vw;
+            top: 1.37vw;
+            font-size: 2.33vw;
+        }
+    }
+}
+
+#eng-cont {
+    top: 329px;
+
+    span {
+        width: 41px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #eng-cont {
+        top: 76.51vw;
+
+        span {
+            width: 9.53vw;
+        }
+    }
+}
+
+#arb-cont {
+    top: 818.11px;
+    transition: top 0.5s ease, opacity 0.5s ease;
+
+    span {
+        width: 37px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #arb-cont {
+        top: 190.25vw;
+
+        span {
+            width: 8.60vw;
+        }
+    }
+}
+
+#foot-cont {
+    top: 1305px;
+
+    span {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #foot-cont {
+        top: 303.49vw;
+
+        span {
+            width: 18.60vw;
+        }
+    }
+}
+
+/* Styling of sub headings in each section */
+.sub-heading {
+    position: absolute;
+    width: 400px;
+    height: 34.55px;
+    left: 14px;
+
+    .pencil {
+        position: absolute;
+        width: 131.84px;
+        height: 34.55px;
+    }
+
+    .pencil-invert {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .sub-heading {
+        width: 93.02vw;
+        height: 8.04vw;
+        left: 3.26vw;
+
+        .pencil {
+            width: 30.66vw;
+            height: 8.04vw;
+        }
+    }
+}
+
+#sub-heading1 {
+    top: 359px;
+}
+
+@media screen and (max-width: 431px) {
+    #sub-heading1 {
+        top: 83.49vw;
+    }
+}
+
+#sub-heading2 {
+    top: 623.55px;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+@media screen and (max-width: 431px) {
+    #sub-heading2 {
+        top: 145.01vw;
+    }
+}
+
+#sub-heading3 {
+    top: 848.11px;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+@media screen and (max-width: 431px) {
+    #sub-heading3 {
+        top: 197.23vw;
+    }
+}
+
+#sub-heading4 {
+    top: 1075px;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+@media screen and (max-width: 431px) {
+    #sub-heading4 {
+        top: 250vw;
+    }
+}
+
+#sub-heading5 {
+    top: 335px;
+    display: none;
+}
+
+@media screen and (max-width: 431px) {
+    #sub-heading5 {
+        top: 77.91vw;
+    }
+}
+
+/* Styling of kids learning section in english content */
+.sub-text {
+    position: absolute;
+    width: 106px;
+    height: 13px;
+    left: calc(50% - 53px);
+    top: 10.78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 89%;
+    text-align: center;
+    color: #1E1200;
+}
+
+@media screen and (max-width: 431px) {
+    .sub-text {
+        width: 24.65vw;
+        height: 3.02vw;
+        left: calc(50% - 12.35vw);
+        top: 2.51vw;
+        font-size: 3.49vw;
+    }
+}
+
+#eng-learn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 418px;
+    height: 210px;
+    top: 404px;
+    left: 5px;
+    gap: 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#eng-learn::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 431px) {
+    #eng-learn {
+        width: 97.21vw;
+        height: 48.84vw;
+        top: 93.72vw;
+        left: 1.16vw;
+        gap: 1.16vw;
+    }
+}
+
+.learning {
+    flex: 0 0 auto;
+    width: 136px;
+    height: 210px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 431px) {
+    .learning {
+        width: 31.63vw;
+        height: 48.84vw;
+        border-radius: 2.33vw;
+    }
+}
+
+.learn-img {
+    width: 136px;
+    height: 175px;
+    left: 0px;
+    top: 0px;
+}
+
+@media screen and (max-width: 431px) {
+    .learn-img {
+        width: 31.63vw;
+        height: 40.70vw;
+    }
+}
+
+.learn-info {
+    position: sticky;
+    width: 125px;
+    height: 21px;
+    left: 5px;
+
+    span {
+        position: absolute;
+        width: 110px;
+        height: 14px;
+        left: 5px;
+        top: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 89%;
+        color: #000000;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .learn-info {
+        width: 29.07vw;
+        height: 2.25vh;
+        left: 1.16vw;
+        top: 19.43vh;
+
+        span {
+            width: 25.58vw;
+            height: 3.26vw;
+            left: 1.16vw;
+            font-size: 2.79vw;
+        }
+    }
+}
+
+.more {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    left: 115px;
+    top: 5px;
+}
+
+@media screen and (max-width: 431px) {
+    .more {
+        width: 2.79vw;
+        height: 2.79vw;
+        left: 26.74vw;
+        top: 1.16vw;
+    }
+}
+
+.like {
+    position: absolute;
+    width: 23px;
+    height: 7px;
+    left: 2px;
+    top: 14px;
+
+    span {
+        position: absolute;
+        width: 20px;
+        height: 5px;
+        left: 18px;
+        top: 1.5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6px;
+        line-height: 89%;
+        letter-spacing: 0.07em;
+        color: #000000;
+    }
+
+    img {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        left: 5px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .like {
+        width: 5.35vw;
+        height: 1.63vw;
+        left: 0.47vw;
+        top: 3.26vw;
+
+        span {
+            width: 4.65vw;
+            height: 1.16vw;
+            left: 4.19vw;
+            top: 0.35vw;
+            font-size: 1.40vw;
+        }
+
+        img {
+            width: 1.63vw;
+            height: 1.63vw;
+            left: 1.16vw;
+        }
+    }
+}
+
+
+/* Styling of kids story section in english content */
+#eng-story {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 418px;
+    height: 135px;
+    top: 668px;
+    left: 5px;
+    gap: 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    transition: top 0.5s ease, opacity 0.5s ease;
+
+    .learning {
+        width: 204px;
+        height: 135px;
+        cursor: pointer;
+
+        .story-img {
+            width: 204px;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .learn-info {
+            width: 188px;
+            left: 7px;
+            top: 108px;
+
+            .more {
+                position: relative;
+                width: 12px;
+                height: 12px;
+                left: 176px;
+                top: 5px;
+            }
+
+            span {
+                width: 181px;
+                left: 7px;
+            }
+
+            .like {
+                img {
+                    position: absolute;
+                    width: 7px;
+                    height: 7px;
+                    left: 5px;
+                    top: 0;
+                }
+
+                span {
+                    position: absolute;
+                    width: 20px;
+                    height: 5px;
+                    left: 18px;
+                    top: 1.5px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 6px;
+                    line-height: 89%;
+                    letter-spacing: 0.07em;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+#eng-story::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 431px) {
+    #eng-story {
+        width: 97.21vw;
+        height: 31.40vw;
+        top: 155.35vw;
+        left: 1.16vw;
+        gap: 1.16vw;
+
+        .learning {
+            width: 47.43vw;
+            height: 31.40vw;
+
+            .story-img {
+                width: 47.43vw;
+                height: 23.26vw;
+            }
+
+            .learn-info {
+                width: 43.72vw;
+                left: 1.63vw;
+                top: 25.12vw;
+
+                .more {
+                    width: 2.79vw;
+                    height: 2.79vw;
+                    left: 40.93vw;
+                    top: 1.16vw;
+                }
+
+                span {
+                    width: 42.09vw;
+                    left: 1.63vw;
+                }
+
+                .like {
+                    img {
+                        width: 1.63vw;
+                        height: 1.63vw;
+                        left: 1.16vw;
+                    }
+
+                    span {
+                        width: 4.65vw;
+                        height: 1.16vw;
+                        left: 4.19vw;
+                        top: 0.35vw;
+                        font-size: 1.40vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Styling of kids learning section in arabic content */
+#arb-learn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 418px;
+    height: 171px;
+    top: 893px;
+    left: 5px;
+    gap: 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    transition: top 0.5s ease, opacity 0.5s ease;
+
+    .learning {
+        height: 171px;
+        cursor: pointer;
+
+        .arb-learn-img {
+            width: 136px;
+            height: 136px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .learn-info {
+            top: 144px;
+        }
+    }
+}
+
+#arb-learn::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 431px) {
+    #arb-learn {
+        width: 97.21vw;
+        height: 39.77vw;
+        top: 207.67vw;
+        left: 1.16vw;
+        gap: 1.16vw;
+
+        .learning {
+            height: 39.77vw;
+
+            .arb-learn-img {
+                width: 31.63vw;
+                height: 31.63vw;
+            }
+
+            .learn-info {
+                top: 33.49vw;
+            }
+        }
+    }
+}
+
+/* Styling of kids song section in arabic content */
+#arb-song {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 418px;
+    height: 171px;
+    top: 1050px;
+    left: 5px;
+    gap: 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    transition: top 0.5s ease, opacity 0.5s ease;
+
+    .learning {
+        width: 418px;
+        height: 171px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .arb-song-img {
+            position: absolute;
+            width: 418px;
+            height: 136px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .learn-info {
+            position: absolute;
+            width: 388px;
+            height: 21px;
+            left: 15px;
+            top: 142px;
+
+            .more {
+                left: 382px;
+                top: 5px;
+            }
+
+            span {
+                width: 236px;
+            }
+        }
+    }
+}
+
+#arb-song::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 431px) {
+    #arb-song {
+        width: 97.21vw;
+        height: 39.77vw;
+        top: 244.19vw;
+        left: 1.16vw;
+        gap: 1.16vw;
+
+        .learning {
+            width: 97.21vw;
+            height: 39.77vw;
+            border-radius: 2.33vw;
+
+            .arb-song-img {
+                width: 97.21vw;
+                height: 31.63vw;
+            }
+
+            .learn-info {
+                width: 90.23vw;
+                height: 4.88vw;
+                left: 3.49vw;
+                top: 33.02vw;
+
+                .more {
+                    left: 88.84vw;
+                    top: 1.16vw;
+                }
+
+                span {
+                    width: 54.88vw;
+                }
+            }
+        }
+    }
+}
+
+/* Styling of popup menu */
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.5s ease;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.72px;
+    position: relative;
+    width: 357px;
+    height: 314px;
+    background: #FAFFCA;
+    border: 0.471601px solid #FFFFFF;
+    border-radius: 7.54561px;
+}
+
+.modal-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11.51px;
+    width: 258.91px;
+    height: 243px;
+}
+
+.menu-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21.25px;
+    width: 258px;
+    height: 37.73px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.line {
+    width: 258.91px;
+    border: 0.89px solid;
+    border-image-source: linear-gradient(90deg, rgba(255, 229, 0, 0) 0%, #FF7A00 50%, rgba(255, 229, 0, 0) 100%);
+}
+
+.opt-img {
+    width: 37.73px;
+    height: 37.73px;
+}
+
+.option-text {
+    display: contents;
+    width: 108px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FF7A00;
+}
+
+@media screen and (max-width: 431px) {
+    .modal-content {
+        gap: 1.10vw;
+        width: 83.02vw;
+        height: 73.02vw;
+        border: 0.11vw solid #FFFFFF;
+        border-radius: 1.76vw;
+    }
+
+    .modal-div {
+        gap: 2.68vw;
+        width: 60.21vw;
+        height: 56.51vw;
+    }
+
+    .menu-option {
+        gap: 4.94vw;
+        width: 60vw;
+        height: 8.77vw;
+    }
+
+    .line {
+        width: 60.21vw;
+        border: 0.21vw solid;
+        border-image-source: linear-gradient(90deg, rgba(255, 229, 0, 0) 0%, #FF7A00 50%, rgba(255, 229, 0, 0) 100%);
+    }
+
+    .opt-img {
+        width: 8.77vw;
+        height: 8.77vw;
+    }
+
+    .option-text {
+        width: 25.12vw;
+        height: 6.28vw;
+        font-size: 4.19vw;
+        line-height: 6.28vw;
+    }
+}
+
+/* Styling for language select input div */
+#langSelect {
+    position: absolute;
+    width: 54px;
+    height: 35px;
+    left: 302px;
+    top: 16px;
+}
+
+@media screen and (max-width: 431px) {
+    #langSelect {
+        width: 12.56vw;
+        height: 8.14vw;
+        left: 70.23vw;
+        top: 3.72vw;
+    }
+}
+
+/* Style for the select element */
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+}
+
+.styled-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: 1px solid #FF3F3F;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #FF3F3F;
+    width: 54px;
+    height: 35px;
+    outline: none;
+    cursor: pointer;
+}
+
+.select-wrapper::after {
+    content: url(images/select-drop.png);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 431px) {
+    .select-wrapper {
+        width: 12.56vw;
+    }
+
+    .styled-select {
+        border: 0.23vw solid #FF3F3F;
+        border-radius: 1.16vw;
+        padding: 1.63vw 2.33vw;
+        font-size: 3.72vw;
+        line-height: 5.58vw;
+        width: 12.56vw;
+        height: 8.14vw;
+    }
+
+    .select-wrapper::after {
+        right: 2.33vw;
+        font-size: 4.19vw;
+    }
+}
+
+/* Rotate the arrow 90 degrees when the select is open */
+.select-wrapper.open::after {
+    transform: rotate(-90deg);
+}
+
+.styled-select:hover,
+.styled-select:focus {
+    border-color: #FF3F3F;
+}
+
+/* Style for the options (limited support) */
+.styled-select option {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    background-color: #FFFDEE;
+    color: #FF3F3F;
+    border: 1px solid #FF3F3F;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+@media screen and (max-width: 431px) {
+    .styled-select option {
+        padding: 2.33vw;
+        border: 0.23vw solid #FF3F3F;
+        border-radius: 1.16vw;
+        font-size: 3.72vw;
+        line-height: 5.58vw;
+    }
+}
+
+/* Hover and focus state for options */
+.styled-select option:hover,
+.styled-select option:focus {
+    background-color: #FF7A00;
+    color: #FFF;
+    border-color: #FF7A00;
+}
+
+#arb-more {
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    width: 418px;
+    height: 2200px;
+    top: 894px;
+    left: 5px;
+    gap: 10px 5px;
+}
+
+@media screen and (max-width: 431px) {
+    #arb-more {
+        width: 97.44vw;
+        height: 511.63vw;
+        top: 208.37vw;
+        left: 1.16vw;
+        gap: 2.33vw 1.16vw;
+    }
+}
+
+/* Styling for iframe to play video */
+.iframe-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.iframe-container iframe {
+    width: 80vw;
+    height: 80vh;
+    border: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+@media (max-width: 431px) {
+    .iframe-container iframe {
+        width: 90%;
+        height: 90%;
+    }
+
+    .close-btn {
+        top: 1.16vw;
+        left: 2.33vw;
+        font-size: 4.19vw;
+        padding: 2.33vw;
+    }
+}
